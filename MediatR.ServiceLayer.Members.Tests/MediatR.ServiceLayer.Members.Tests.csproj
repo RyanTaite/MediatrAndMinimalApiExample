@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MediatR.ServiceLayer.MemberAttendance\MediatR.ServiceLayer.MemberAttendance.csproj" />
     <ProjectReference Include="..\MediatR.ServiceLayer.Members\MediatR.ServiceLayer.Members.csproj" />
   </ItemGroup>
   
