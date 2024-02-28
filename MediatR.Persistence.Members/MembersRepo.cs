@@ -46,7 +46,21 @@ public class MembersRepo : IMembersRepo
 
         return memberToUpdate.IsAttending;
     }
-    
+
+    public async Task<Member> GetMemberAsync(Guid memberId, CancellationToken cancellationToken)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        
+        var member = await _context.Members.FindAsync([memberId], cancellationToken);
+        
+        if (member is null)
+        {
+            throw new KeyNotFoundException($"No member with an id of '{memberId}' found");
+        }
+
+        return member;
+    }
+
     /// <summary>
     /// Since we are using an in-memory database, this method will populate the database
     /// with some hard-coded values for us.

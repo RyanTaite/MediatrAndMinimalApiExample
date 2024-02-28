@@ -17,4 +17,9 @@ public class MembersService : IMembersService
     {
         return await _membersRepo.GetAllMembersAsync(cancellationToken);
     }
+
+    public async Task<Member> GetMemberAsync(Guid memberId, CancellationToken cancellationToken)
+    {
+        return await _membersRepo.GetMemberAsync(memberId, cancellationToken);
+    }
 }
