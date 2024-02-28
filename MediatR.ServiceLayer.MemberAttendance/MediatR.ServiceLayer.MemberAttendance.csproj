@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MediatR.Domain.Api\MediatR.Domain.Api.csproj" />
+      <ProjectReference Include="..\MediatR.Domain.Members\MediatR.Domain.Members.csproj" />
+      <ProjectReference Include="..\MediatR.Persistence.Members\MediatR.Persistence.Members.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.9.0" />
+      <PackageReference Include="MediatR" Version="12.2.0" />
+    </ItemGroup>
+
+</Project>
