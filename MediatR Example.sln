@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Domain.Api", "Media
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.ServiceLayer.Members", "MediatR.ServiceLayer.Members\MediatR.ServiceLayer.Members.csproj", "{1B660D78-A53C-4967-A1CF-EACE70D49A39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.ServiceLayer.Members.Tests", "MediatR.ServiceLayer.Members.Tests\MediatR.ServiceLayer.Members.Tests.csproj", "{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{1B660D78-A53C-4967-A1CF-EACE70D49A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B660D78-A53C-4967-A1CF-EACE70D49A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B660D78-A53C-4967-A1CF-EACE70D49A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
