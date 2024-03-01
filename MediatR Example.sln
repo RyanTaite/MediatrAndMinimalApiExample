@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Api", "MediatR.Api\MediatR.Api.csproj", "{AE21C996-06CA-47E2-B708-AC2BA59A9754}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Api", "Example.Api\Example.Api.csproj", "{AE21C996-06CA-47E2-B708-AC2BA59A9754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.ServiceLayer.MemberAttendance", "MediatR.ServiceLayer.MemberAttendance\MediatR.ServiceLayer.MemberAttendance.csproj", "{1DAAFBB6-43E3-4610-8121-ABC556C5960F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.ServiceLayer.MemberAttendance", "Example.ServiceLayer.MemberAttendance\Example.ServiceLayer.MemberAttendance.csproj", "{1DAAFBB6-43E3-4610-8121-ABC556C5960F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Persistence.Members", "MediatR.Persistence.Members\MediatR.Persistence.Members.csproj", "{E61DB4B3-B15A-4573-971F-C21738505906}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Persistence.Members", "Example.Persistence.Members\Example.Persistence.Members.csproj", "{E61DB4B3-B15A-4573-971F-C21738505906}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Domain.Members", "MediatR.Domain.Members\MediatR.Domain.Members.csproj", "{2C005D2F-7657-4053-841D-12FC94BFDD6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Domain.Members", "Example.Domain.Members\Example.Domain.Members.csproj", "{2C005D2F-7657-4053-841D-12FC94BFDD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Domain.Api", "MediatR.Domain.Api\MediatR.Domain.Api.csproj", "{27B3C797-7650-445E-A84A-BD59A076BA54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Domain.Api", "Example.Domain.Api\Example.Domain.Api.csproj", "{27B3C797-7650-445E-A84A-BD59A076BA54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.ServiceLayer.Members", "MediatR.ServiceLayer.Members\MediatR.ServiceLayer.Members.csproj", "{1B660D78-A53C-4967-A1CF-EACE70D49A39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.ServiceLayer.Members", "Example.ServiceLayer.Members\Example.ServiceLayer.Members.csproj", "{1B660D78-A53C-4967-A1CF-EACE70D49A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.ServiceLayer.Members.Tests", "MediatR.ServiceLayer.Members.Tests\MediatR.ServiceLayer.Members.Tests.csproj", "{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.ServiceLayer.Members.Tests", "Example.ServiceLayer.Members.Tests\Example.ServiceLayer.Members.Tests.csproj", "{7D49C6D6-FEA8-43DC-86CB-EB3EFF5CD83D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
