@@ -52,7 +52,7 @@ public static class MembersEndpoints
                 };
             })
             // These `Produces...` statements tell OpenApi (the Swagger page) what possible results the endpoint can return
-            .Produces<UpdateAttendanceResult>()
+            .Produces<GetMemberResult>()
             .Produces<string>(StatusCodes.Status404NotFound)
             .ProducesProblem(StatusCodes.Status400BadRequest)
             .ProducesProblem(StatusCodes.Status500InternalServerError)
